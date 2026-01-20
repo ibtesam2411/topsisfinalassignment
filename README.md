@@ -36,5 +36,29 @@ python topsis.py INPUT_FILE WEIGHTS IMPACTS OUTPUT_FILE
 Example
 
 python topsis.py data.csv "1,1,1,2" "+,+,-,+" result.csv
-5.Live Link The application is deployed and accessible at the following address: https://arunmahajan07.pythonanywhere.com/
+5.Live Link The application is deployed and accessible at the following address:https://ibtesam102303316-gwt8hfzbkjha7tplgl8hhy.streamlit.app/
 6.Screenshot of the Interface The interface is designed to be clean and user-friendly, as shown below:
+7.Error Handling
+
+The program handles the following cases:
+
+*Incorrect number of command-line arguments
+
+*File not found exception
+
+*Input file with less than three columns
+
+*Non-numeric values in criteria columns
+
+*Mismatch between number of weights, impacts, and criteria
+
+*Invalid impact symbols
+
+8.Conclusion:
+This project provides a complete and automated solution for TOPSIS-based decision making using both a command-line interface and a web-based application.
+
+9.Author:
+Md Ibtesam
+
+10.License:
+This project is intended for academic and educational use.
